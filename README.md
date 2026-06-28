@@ -127,9 +127,18 @@ python scripts/04_regression.py
 | Invest in LinkedIn sourcing | Strong performance scores; moderate cost-per-hire |
 | Measure satisfaction systematically | Significant predictor of time-to-fill and retention |
 
----
+## 🗃️ Data Source
 
-## 👩‍💻 About
+This project uses the **Human Resources Data Set** by Dr. Rich Huebner & Dr. Carla Patalano — one of the most complete open HR datasets with linked employee, recruiting spend, and performance files:
+
+🔗 **Kaggle:** [Human Resources Data Set — rhuebner](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set)  
+🔗 **Direct (no login):** [HR Dataset Mirror — openml.org](https://www.openml.org/search?type=data&status=active&qualities.NumberOfInstances=between_0_1000&id=4535)
+
+**Key files used:**
+- `HRDataset_v13.csv` — employee records with hire source, performance, satisfaction, and pay data
+- `recruiting_costs.csv` — monthly spend per recruitment source (cost-per-hire basis)
+
+---
 
 Developed as **Portfolio Project 2** — part of an end-to-end analytics portfolio built during BS Analytics & Sustainability Studies at TISS Mumbai.
 
